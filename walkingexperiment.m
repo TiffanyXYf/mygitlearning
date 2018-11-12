@@ -2,7 +2,7 @@ clear
 close all
 clc
 %以两个用户的数据分类  adaboost
-%该算法也能实现运动模式的判断，但是，需要标签，是监督学习
+%该算法也能实现运动模式的判断，需要标签，是监督学习
 data1 = xlsread('1.csv');
 data2 = xlsread('2.csv');
 %data3 = xlsread('4.csv');
